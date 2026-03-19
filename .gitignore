@@ -37,7 +37,6 @@ gif exercise/
 gif exercise-*.zip
 
 # ===== ONNX Models (usually large) =====
-*.onnx
 ai_fitness_trainer/models/
 ai_fitness_trainer/trt_cache/
 
@@ -51,5 +50,8 @@ nul
 *.log
 Thumbs.db
 .DS_Store
-"!x64/Release/models/" 
-"!x64/Release/models/*.onnx" 
+# ===== Allow runtime models =====
+!x64/
+!x64/Release/
+!x64/Release/models/
+!x64/Release/models/*.onnx
