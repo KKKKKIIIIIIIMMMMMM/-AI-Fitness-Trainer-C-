@@ -1,0 +1,53 @@
+# ===== Build Output =====
+x64/
+Debug/
+Release/
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.exp
+*.iobj
+*.ipdb
+
+# ===== Visual Studio =====
+.vs/
+*.user
+*.suo
+*.aps
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+ipch/
+
+# ===== Large Files / Datasets =====
+*.rar
+*.zip
+*.7z
+Dataset/
+Dataset.zip
+Dataset.rar
+Nicom_ff.rar
+runpod_train/
+runpod_train.rar
+Train_folder/
+gif exercise/
+gif exercise-*.zip
+
+# ===== ONNX Models (usually large) =====
+*.onnx
+ai_fitness_trainer/models/
+ai_fitness_trainer/trt_cache/
+
+# ===== Runtime Data =====
+ai_fitness_trainer/profile.dat
+ai_fitness_trainer/workout_history.csv
+nul
+
+# ===== Misc =====
+*.tmp
+*.log
+Thumbs.db
+.DS_Store
